@@ -18,38 +18,38 @@ class Footer extends Component {
                      <h5 class="thr"><b>iPurvey</b></h5>
                    <div class="bnm">
                       
-                      <p>Your Account</p>
-                      <p>Media Centre</p>
-                      <p>Blog</p>
-                      <p>Business</p>
+                      <p><a href="#">Your Account</a></p>
+                      <p><a href="#">Media Center</a></p>
+                      <p><a href="#">Blog</a></p>
+                      <p><a href="#">Business</a></p>
                    </div>
                </div> 
               <div class="col-sm-2">
                      <h5 class="thr"><b>iPurvey</b></h5>
                  <div class="bnm">
+                 <p><a href="#">About Us</a></p>
+                 <p><a href="#">Contact Us</a></p>
+                 <p><a href="#">Help Center</a></p>
+                 <p><a href="#">FAQs</a></p>
                     
-                    <p>Your Account</p>
-                    <p>Media Centre</p>
-                    <p>Blog</p>
-                    <p>Business</p>
                    </div>
               </div>
               <div class="col-sm-3">
                      <h5 class="thr"><b>iPurvey</b></h5>
                  <div class="bnm">
+                 <p><a href="#">Privacy Pilicy</a></p>
+                 <p><a href="#">Terms of Service</a></p>
+                 <p><a href="#">Data Policy</a></p>
+                  
                     
-                    <p>Your Account</p>
-                    <p>Media Centre</p>
-                    <p>Blog</p>
-                    <p>Business</p>
                  </div>
               </div>
               <div class="col-sm-3">
                     
-                  <h2><b class="aqfq">Get in touch!</b></h2>
-                  <input class="aqfq" type="text" placeholder="Full Name" size="28"></input>
+                  <h2><b class="aqfqe">Get in touch!</b></h2>
+                  <input class="aqfq" type="text" placeholder="Full Name" size="30"></input>
                   <input class="terf" type="text" placeholder="Email Address" size="28"></input>
-                  <textarea class="aqfq" placeholder="Message" rows="5" cols="30"></textarea>
+                  <textarea class="aqfqee" placeholder="Message" rows="3" cols="29"></textarea>
                   <div class='amm'>
                   <button class="eee">Send</button>
                   </div>
@@ -63,20 +63,25 @@ class Footer extends Component {
 
             <div class="row">
             <div class="atti">
-               <div class="as">
-                   <div class="col-sm-1">asdfgh</div>
-               </div>
+               
+                   <div class="col-sm-1">
+                      <div class="as"> asdfgh</div>
+                   </div>
                 <div class="ads">
-                   <div class="col-sm-3">Connect with us!<br></br>
+                   <div class="col-sm-3">Connect with us!<hr class="dede"></hr>
+                   <div class="lkj">
                    <img src="assets/images/Group 2432@3x.png" height="20px" width="20px" alt=""/> 
                    <img class="aee" src="assets/images/Group 3315@3x.png" height="17px" width="17px" alt=""/> 
                    <img src="assets/images/Group 2430@3x.png" height="17px" width="17px" alt=""/> 
                    <img class="aeet" src="assets/images/Group 3406@3x.png" height="17px" width="17px" alt=""/> 
                    <img src="assets/images/Group 3407@3x.png" height="17px" width="17px" alt=""/> 
                    </div>
+                   </div>
                 </div>
-                <div class="adds">
-                   <div class="col-sm-4">Copyright<span>&#169;</span>2020.iPurvey.</div>
+               
+                   <div class="col-sm-4">
+                   <div class="adds">Copyright<span>&#169;</span>2020.iPurvey.</div>
+                   
                 </div>
                 <div class="addds">
                    <div class="col-sm-3">Privacy policy  |  Terms of Use</div>

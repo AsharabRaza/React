@@ -9,31 +9,27 @@ class Header extends Component {
     render() { 
         return ( 
 
-            <div>
-            <nav class="navbar navbar-default">
-            <div class="container-fluid">
-        
-              <div class="tol1">
-                <div class="tol">
-        
-                  <ul class="nav navbar-nav">
-                    <li><img src="assets/images/iPurvery Logo PNG@3x.png" height="65px" width="90px" alt=""/></li>
-        
-                    <li><a href="#" class="ome">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li class="side"><a href="#">My Account</a></li>
-                    <li><button class="tton">Sign Up</button></li>
-        
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </nav>
+          <div>
+          
+             <div class="topnav">
+               
+               <a href="#"><img src="assets/images/iPurvery Logo PNG@3x.png" height="65px" width="90px" alt=""/></a>
+               <div class="m24">
+               <a class="active" href="#">Home</a>
+               <a href="#">Services</a>
+               <a href="#">Pricing</a>
+               <a href="#">Contact Us</a>
+               <a href="#">About Us</a>
+               <a href="#">Contact Us</a>
+               </div>
+               
+             </div> 
+             <div class="side">
+                  <a class="awm" href="#">My Account</a>
+                  <button class="tton">Sign Up</button>
+               </div>
             
-            </div>
+          </div>
          );
     }
 }

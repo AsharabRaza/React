@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
-
+import Tippy from '@tippyjs/react'
+import 'tippy.js/dist/tippy.css'
+import 'tippy.js/themes/light.css'
 
   class Home extends Component {
       constructor(props) {
@@ -17,7 +19,7 @@ import React, {Component} from 'react';
                   <div class="row">
             
                     <div class="col-sm-2"></div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-5">
                       <div class="im">
                         <img src="assets/images/Group 3449@3x.png" height="300px" width="450px" alt=""/>
                       </div>
@@ -28,14 +30,22 @@ import React, {Component} from 'react';
                         ea rebum. Stet clita kasd gubergren, no se</p>
                       <button class="kl">Sign Up today!</button>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-5">
                       <div class="la">
                         <label class="ytyt"> Retrieve your Travel Booking!</label>
-                        <p class="low">Let's help you with your compensation request.<br></br>Please enter the details to get a claim</p>
+                        <p class="low">Like your travel claim automatically requested if <br></br> there is a disruption?  <Tippy placement={'bottom-start'} theme={'light'}  content={
+                          <div>
+                               <h4>Flight:</h4>
+                               <p>Air passengers in England and Wales have<br></br>up tp six years from the date of the flight to<br></br>make a flight compensation claim</p>
+                               <h4>Rail:</h4>
+                               <p>With majority of train companies,claims can<br></br> be made up to 28 days after your journey<br></br>Some may allow longer</p>
+                          </div>
+                        }>
+                          <img src="assets/images/Group 3458@3x.png" height="12px" width="13px" alt=""/></Tippy></p>
                         <input class="dd" type="text" placeholder="Banking Reference Number"/>
                         <input class="dd" type="text" placeholder="Sur Name"/>
                         <p class="tre">Mode of travel</p>
-                        <img class="eee" src="assets/images/Group 3469@3x.png" height="14px" width="14px" alt=""/>
+                        <img class="eeet" src="assets/images/Group 3469@3x.png" height="14px" width="14px" alt=""/>
                         <div class="laaa">
                           <img src="assets/images/Group 3468@3x.png" height="35px" width="30px" alt=""/>
                           <p class="tre1">Airplane</p>
@@ -45,7 +55,7 @@ import React, {Component} from 'react';
                         <div class="laaa2">
             
                           <img src="assets/images/Group 3465@3x.png" height="35px" width="25px" alt=""/>
-                          <p class="tre1">Railway</p>
+                          <p class="tre1">Rail</p>
                         </div>
                         <div class="jo">
                           <button class="onn">Retrieve Booking</button>
@@ -59,6 +69,7 @@ import React, {Component} from 'react';
                 </div>
             
                 <div class="tr">
+                 <div class="patta">
             
                   <div class="row">
                     <h2 class="vbvb"><b>Why iPurvey?</b></h2>
@@ -101,7 +112,7 @@ import React, {Component} from 'react';
                       <div class="col-sm-2"></div>
                     </div>
                   </div>
-            
+                  </div>
                 </div>
             
                 <h2 class="cdcd"><b>Lorem ipsum dolor sit amet, consetetur</b></h2>
@@ -132,7 +143,7 @@ import React, {Component} from 'react';
                         <h4><b>Feature Name</b></h4>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor in Lorem ipsum
                           dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod </p>
-                          <h5 class="aatt">Learn More</h5>
+                          <h5 class="aatt"><a href="#">Learn More</a></h5>
                           <img class="trap" src="assets/images/Icon feather-arrow-right@3x.png" height="10px" width="10px" alt=""/>
                       </div>
                       <div class="col-sm-1"></div>
@@ -141,7 +152,7 @@ import React, {Component} from 'react';
                         <h4 class="vcvc"><b>Feature Name</b></h4>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor in Lorem ipsum
                           dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod </p>
-                          <h5 class="aatt">Learn More</h5>
+                          <h5 class="aatt"><a href="#">Learn More</a></h5>
                           <img class="trap" src="assets/images/Icon feather-arrow-right@3x.png" height="10px" width="10px" alt=""/>
                       </div>
                       <div class="col-sm-1"></div>
@@ -150,7 +161,7 @@ import React, {Component} from 'react';
                         <h4 class="vcvc"><b>Feature Name</b></h4>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor in Lorem ipsum
                           dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod </p>
-                          <h5 class="aatt">Learn More</h5>
+                          <h5 class="aatt"><a href="#">Learn More</a></h5>
                           <img class="trap" src="assets/images/Icon feather-arrow-right@3x.png" height="10px" width="10px" alt=""/>
                       </div>
                       <div class="col-sm-2"></div>
@@ -194,9 +205,12 @@ import React, {Component} from 'react';
                   </div>
 
                   <div class="gfggfe">
+                <div class="lolo">
                   <div class="container-fluid">
-                
+                 
                   <div class="row">
+                 </div>
+                 
                        
                         
                          
@@ -207,7 +221,7 @@ import React, {Component} from 'react';
                          <div class="col-sm-5">
                              <h2 class="otd"><b>All your favorite banks at one place!</b></h2>
                              <p class="tata">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum</p> 
-                             <h5 class="aatt">View registered banks   <img class="asap" src="assets/images/Icon feather-arrow-right@3x.png" height="10px" width="12px" alt=""/></h5>
+                             <h5 class="aatt"><a href="#">View registered banks</a>   <img class="asap" src="assets/images/Icon feather-arrow-right@3x.png" height="10px" width="12px" alt=""/></h5>
                              
                              </div>
                          <div class="col-sm-4">
@@ -216,7 +230,7 @@ import React, {Component} from 'react';
                          <div class="col-sm-2"></div>
 
                         </div>
-                  </div>
+                 
                   
 
                   <div class="container-fluid">
@@ -235,7 +249,7 @@ import React, {Component} from 'react';
                          <div class="col-sm-4">
                              <h2 class="otd"><b>All your favorite banks at one place!</b></h2>
                              <p class="tata">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum</p> 
-                             <h5 class="aatt">View registered banks   <img class="asap" src="assets/images/Icon feather-arrow-right@3x.png" height="10px" width="12px" alt=""/></h5>
+                             <h5 class="aatt"><a href="#">View registered banks</a>   <img class="asap" src="assets/images/Icon feather-arrow-right@3x.png" height="10px" width="12px" alt=""/></h5>
                              
                              </div>
                              <div class="col-sm-2"></div>
@@ -255,11 +269,11 @@ import React, {Component} from 'react';
                          <div class="col-sm-5">
                              <h2 class="otd"><b>All your favorite banks at one place!</b></h2>
                              <p class="tata">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum</p> 
-                             <h5 class="aatt">View registered banks   <img class="asap" src="assets/images/Icon feather-arrow-right@3x.png" height="10px" width="12px" alt=""/></h5>
+                             <h5 class="aatt"><a href="#">Download app</a> <img class="asap" src="assets/images/Icon feather-arrow-right@3x.png" height="10px" width="12px" alt=""/></h5>
                              
                              </div>
                          <div class="col-sm-4">
-                             <img src="assets/images/Mask Group 22@3x.png" height="300" width="500" alt=""/>
+                             <img class="ttt" src="assets/images/Mask Group 22@3x.png" height="400" width="350" alt=""/>
                          </div>
                          <div class="col-sm-2"></div>
 
@@ -267,7 +281,7 @@ import React, {Component} from 'react';
                   </div>
                   </div>
                   
-                  
+                  </div>
                  </div>
 
                  <div>
@@ -275,10 +289,15 @@ import React, {Component} from 'react';
                    <div class="row">
                      <div class="ankl">
                      <div class="col-sm-2"></div>
-                     <div class="col-sm-2"><img src="assets/images/Group 3317@3x.png" height="100px" width="100px" alt=""/></div>
-                     <div class="col-sm-2"><img src="assets/images/Group 3318@3x.png" height="100px" width="100px" alt=""/></div>
-                     <div class="col-sm-2"><img src="assets/images/Group 3319@3x.png" height="100px" width="100px" alt=""/></div>
-                     <div class="col-sm-2"><img src="assets/images/Group 3320@3x.png" height="100px" width="100px" alt=""/></div>
+                     <div class="col-sm-1"><img src="assets/images/Group 3317@3x.png" height="100px" width="100px" alt=""/></div>
+                     
+                     <div class="col-sm-1"><img src="assets/images/Group 3318@3x.png" height="100px" width="100px" alt=""/></div>
+                     <div class="col-sm-1"><img src="assets/images/Group 3317@3x.png" height="100px" width="100px" alt=""/></div>
+                     <div class="col-sm-1"><img src="assets/images/Group 3318@3x.png" height="100px" width="100px" alt=""/></div>
+                     <div class="col-sm-1"><img src="assets/images/Group 3319@3x.png" height="100px" width="100px" alt=""/></div>
+                     <div class="col-sm-1"><img src="assets/images/Group 3320@3x.png" height="100px" width="100px" alt=""/></div>
+                     <div class="col-sm-1"><img src="assets/images/Group 3319@3x.png" height="100px" width="100px" alt=""/></div>
+                     <div class="col-sm-1"><img src="assets/images/Group 3320@3x.png" height="100px" width="100px" alt=""/></div>
                      <div class="col-sm-2"></div>
                      </div>
                    
